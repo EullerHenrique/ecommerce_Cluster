@@ -4,7 +4,977 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5fff370-ee62-4ab5-9058-3a789a5df8cc" name="Changes" comment="" />
+    <list default="true" id="c5fff370-ee62-4ab5-9058-3a789a5df8cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_NEW_ORDER-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_APPROVED-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_ORDER_REJECTED-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/ECOMMERCE_SEND_EMAIL-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-10/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-10/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-10/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-10/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-10/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-11/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-11/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-11/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-11/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-11/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-12/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-12/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-12/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-12/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-12/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-13/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-13/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-13/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-13/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-13/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-14/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-14/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-14/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-14/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-14/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-15/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-15/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-15/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-15/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-15/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-16/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-16/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-16/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-16/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-16/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-17/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-17/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-17/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-17/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-17/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-18/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-18/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-18/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-18/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-18/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-19/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-19/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-19/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-19/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-19/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-20/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-20/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-20/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-20/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-20/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-21/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-21/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-21/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-21/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-21/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-22/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-22/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-22/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-22/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-22/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-23/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-23/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-23/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-23/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-23/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-24/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-24/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-24/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-24/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-24/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-25/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-25/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-25/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-25/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-25/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-26/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-26/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-26/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-26/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-26/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-27/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-27/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-27/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-27/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-27/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-28/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-28/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-28/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-28/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-28/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-29/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-29/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-29/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-29/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-29/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-3/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-3/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-3/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-3/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-3/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-30/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-30/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-30/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-30/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-30/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-31/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-31/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-31/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-31/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-31/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-32/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-32/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-32/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-32/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-32/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-33/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-33/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-33/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-33/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-33/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-34/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-34/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-34/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-34/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-34/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-35/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-35/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-35/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-35/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-35/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-36/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-36/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-36/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-36/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-36/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-37/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-37/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-37/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-37/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-37/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-38/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-38/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-38/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-38/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-38/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-39/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-39/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-39/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-39/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-39/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-4/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-4/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-4/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-4/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-4/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-40/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-40/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-40/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-40/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-40/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-41/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-41/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-41/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-41/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-41/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-42/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-42/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-42/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-42/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-42/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-43/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-43/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-43/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-43/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-43/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-44/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-44/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-44/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-44/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-44/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-45/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-45/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-45/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-45/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-45/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-46/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-46/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-46/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-46/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-46/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-47/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-47/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-47/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-47/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-47/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-48/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-48/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-48/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-48/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-48/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-49/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-49/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-49/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-49/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-49/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-5/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-5/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-5/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-5/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-5/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-6/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-6/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-6/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-6/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-6/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-7/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-7/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-7/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-7/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-7/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-8/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-8/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-8/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-8/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-8/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-9/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-9/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-9/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-9/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/__consumer_offsets-9/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/cleaner-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/log-start-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/meta.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/recovery-point-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/1/data/replication-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_NEW_ORDER-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_APPROVED-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_ORDER_REJECTED-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/ECOMMERCE_SEND_EMAIL-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-10/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-10/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-10/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-10/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-10/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-11/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-11/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-11/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-11/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-11/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-12/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-12/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-12/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-12/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-12/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-13/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-13/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-13/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-13/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-13/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-14/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-14/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-14/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-14/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-14/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-15/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-15/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-15/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-15/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-15/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-16/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-16/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-16/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-16/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-16/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-17/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-17/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-17/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-17/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-17/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-18/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-18/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-18/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-18/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-18/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-19/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-19/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-19/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-19/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-19/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-20/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-20/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-20/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-20/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-20/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-21/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-21/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-21/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-21/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-21/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-22/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-22/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-22/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-22/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-22/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-23/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-23/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-23/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-23/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-23/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-24/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-24/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-24/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-24/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-24/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-25/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-25/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-25/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-25/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-25/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-26/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-26/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-26/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-26/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-26/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-27/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-27/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-27/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-27/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-27/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-28/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-28/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-28/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-28/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-28/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-29/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-29/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-29/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-29/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-29/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-3/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-3/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-3/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-3/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-3/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-30/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-30/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-30/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-30/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-30/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-31/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-31/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-31/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-31/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-31/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-32/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-32/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-32/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-32/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-32/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-33/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-33/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-33/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-33/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-33/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-34/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-34/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-34/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-34/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-34/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-35/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-35/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-35/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-35/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-35/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-36/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-36/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-36/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-36/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-36/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-37/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-37/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-37/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-37/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-37/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-38/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-38/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-38/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-38/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-38/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-39/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-39/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-39/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-39/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-39/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-4/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-4/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-4/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-4/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-4/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-40/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-40/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-40/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-40/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-40/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-41/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-41/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-41/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-41/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-41/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-42/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-42/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-42/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-42/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-42/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-43/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-43/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-43/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-43/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-43/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-44/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-44/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-44/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-44/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-44/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-45/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-45/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-45/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-45/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-45/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-46/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-46/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-46/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-46/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-46/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-47/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-47/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-47/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-47/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-47/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-48/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-48/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-48/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-48/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-48/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-49/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-49/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-49/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-49/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-49/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-5/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-5/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-5/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-5/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-5/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-6/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-6/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-6/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-6/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-6/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-7/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-7/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-7/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-7/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-7/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-8/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-8/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-8/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-8/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-8/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-9/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-9/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-9/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-9/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/__consumer_offsets-9/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/cleaner-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/log-start-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/meta.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/recovery-point-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/2/data/replication-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_NEW_ORDER-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_APPROVED-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_ORDER_REJECTED-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/ECOMMERCE_SEND_EMAIL-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-0/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-1/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-10/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-10/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-10/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-10/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-10/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-11/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-11/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-11/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-11/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-11/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-12/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-12/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-12/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-12/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-12/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-13/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-13/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-13/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-13/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-13/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-14/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-14/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-14/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-14/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-14/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-15/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-15/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-15/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-15/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-15/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-16/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-16/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-16/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-16/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-16/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-17/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-17/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-17/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-17/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-17/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-18/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-18/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-18/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-18/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-18/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-19/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-19/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-19/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-19/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-19/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-2/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-20/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-20/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-20/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-20/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-20/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-21/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-21/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-21/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-21/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-21/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-22/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-22/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-22/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-22/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-22/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-23/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-23/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-23/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-23/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-23/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-24/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-24/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-24/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-24/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-24/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-25/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-25/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-25/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-25/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-25/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-26/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-26/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-26/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-26/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-26/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-27/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-27/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-27/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-27/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-27/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-28/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-28/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-28/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-28/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-28/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-29/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-29/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-29/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-29/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-29/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-3/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-3/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-3/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-3/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-3/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-30/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-30/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-30/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-30/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-30/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-31/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-31/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-31/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-31/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-31/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-32/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-32/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-32/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-32/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-32/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-33/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-33/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-33/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-33/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-33/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-34/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-34/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-34/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-34/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-34/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-35/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-35/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-35/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-35/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-35/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-36/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-36/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-36/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-36/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-36/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-37/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-37/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-37/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-37/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-37/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-38/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-38/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-38/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-38/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-38/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-39/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-39/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-39/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-39/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-39/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-4/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-4/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-4/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-4/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-4/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-40/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-40/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-40/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-40/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-40/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-41/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-41/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-41/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-41/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-41/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-42/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-42/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-42/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-42/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-42/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-43/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-43/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-43/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-43/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-43/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-44/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-44/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-44/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-44/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-44/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-45/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-45/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-45/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-45/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-45/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-46/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-46/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-46/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-46/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-46/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-47/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-47/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-47/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-47/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-47/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-48/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-48/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-48/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-48/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-48/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-49/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-49/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-49/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-49/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-49/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-5/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-5/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-5/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-5/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-5/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-6/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-6/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-6/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-6/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-6/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-7/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-7/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-7/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-7/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-7/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-8/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-8/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-8/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-8/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-8/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-9/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-9/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-9/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-9/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/__consumer_offsets-9/partition.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/cleaner-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/log-start-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/meta.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/recovery-point-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/kafka/3/data/replication-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/1/data/myid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/1/data/version-2/acceptedEpoch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/1/data/version-2/currentEpoch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/1/data/version-2/snapshot.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/1/log/version-2/log.100000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/2/data/myid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/2/data/version-2/acceptedEpoch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/2/data/version-2/currentEpoch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/2/data/version-2/snapshot.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/2/log/version-2/log.100000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/3/data/myid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/3/data/version-2/acceptedEpoch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/3/data/version-2/currentEpoch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/3/data/version-2/snapshot.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/zookeeper/3/log/version-2/log.100000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +982,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -24,6 +997,7 @@
     </option>
   </component>
   <component name="ProjectId" id="29vqn707UOJy1rwoCjfPstLNr7c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,8 +1006,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Documents/Study/UFU/CURSOS/KAFKA/alura/ecommerce_[Cluster]",
+    "last_opened_file_path": "D:/Documents/Study/UFU/CURSOS/KAFKA/alura/ecommerce_Cluster",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,9 +1052,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpEcommerceService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.HttpEcommerceService" />
-      <module name="service-http-ecommerce" />
+    <configuration name="FraudDetectorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.FraudDetectorService" />
+      <module name="service-fraud-detector" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -90,9 +1065,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.LogService" />
-      <module name="service-log" />
+    <configuration name="HttpEcommerceService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.HttpEcommerceService" />
+      <module name="service-http-ecommerce" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -120,8 +1095,8 @@
       <list>
         <item itemvalue="Application.NewOrderMain" />
         <item itemvalue="Application.EmailService" />
-        <item itemvalue="Application.LogService" />
         <item itemvalue="Application.CreateUserService" />
+        <item itemvalue="Application.FraudDetectorService" />
         <item itemvalue="Application.HttpEcommerceService" />
       </list>
     </recent_temporary>
@@ -145,13 +1120,176 @@
       <workItem from="1654792848663" duration="11176000" />
       <workItem from="1655210301263" duration="6230000" />
       <workItem from="1655224555893" duration="139000" />
+      <workItem from="1655224800106" duration="7391000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
