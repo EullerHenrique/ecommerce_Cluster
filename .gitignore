@@ -1,0 +1,9 @@
+# Project exclude paths
+/common-kafka/target/
+/service-email/target/
+/service-fraud-detector/target/
+/service-http-ecommerce/target/
+/service-log/target/
+/service-new-order/target/
+/service-users/target/
+/target/
